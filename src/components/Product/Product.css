@@ -1,0 +1,19 @@
+.product {
+  @apply bg-[#f5f5f5] p-5 flex items-center rounded-3xl w-full md:w-[35em] mt-5 md:mt-0;
+}
+
+.product__details {
+  @apply flex flex-col ml-5;
+}
+
+.product__image {
+  @apply h-36 w-36 object-cover rounded-3xl;
+}
+
+.product__name {
+  @apply font-bold text-3xl;
+}
+
+.product__description {
+  @apply text-base mt-2;
+}

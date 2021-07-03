@@ -1,0 +1,4 @@
+.navBar__link {
+  @apply block;
+  @apply md:m-6;
+}
