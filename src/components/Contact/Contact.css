@@ -1,0 +1,39 @@
+.contact__heading {
+  @apply font-bold text-4xl;
+}
+
+.contact__box {
+  @apply bg-[#f5f5f5] p-7 rounded-3xl mt-7 w-full;
+}
+
+.contact__main {
+  @apply w-full grid md:grid-cols-3 grid-cols-1 gap-1 md:gap-4;
+}
+
+.contact__description {
+  @apply text-lg;
+}
+
+.contact__form {
+  @apply flex flex-col mt-4;
+}
+
+.contact__methods {
+  @apply flex flex-col mt-14;
+}
+
+.contact__method {
+  @apply flex items-center mb-5;
+}
+
+.contact__methodText {
+  @apply ml-6;
+}
+
+.contact__textBox {
+  @apply mt-4 w-full p-3 border-[1px] border-black;
+}
+
+.contact__button {
+  @apply bg-[#dcdcdc] block text-center w-full p-3 rounded-2xl mt-5;
+}

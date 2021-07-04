@@ -1,0 +1,7 @@
+.location__heading {
+  @apply font-bold text-4xl;
+}
+
+.location__location {
+  @apply w-full h-96 rounded-3xl overflow-hidden mt-6;
+}

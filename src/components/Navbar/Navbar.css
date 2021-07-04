@@ -2,3 +2,11 @@
   @apply block;
   @apply md:m-6;
 }
+
+.navbar__rightContainer {
+  @apply flex;
+}
+
+.navbar__rightContainer a {
+  @apply ml-4;
+}

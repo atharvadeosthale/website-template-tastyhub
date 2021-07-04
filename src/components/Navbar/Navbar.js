@@ -1,5 +1,7 @@
 import React from "react";
 import "./Navbar.css";
+import { ReactComponent as FBIcon } from "../../assets/fb-round.svg";
+import { ReactComponent as InstaIcon } from "../../assets/instagram-round.svg";
 
 function Navbar() {
   return (
@@ -27,7 +29,10 @@ function Navbar() {
         </div>
         <div className="navbar__rightContainer">
           <a href="#" className="">
-            Login
+            <FBIcon style={{ height: 30, width: 30 }} />
+          </a>
+          <a href="#" className="">
+            <InstaIcon style={{ height: 30, width: 30 }} />
           </a>
         </div>
       </nav>
